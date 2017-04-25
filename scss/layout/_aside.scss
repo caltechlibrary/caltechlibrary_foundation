@@ -1,0 +1,11 @@
+// Non-modular or client styles for asides or sidebars.
+
+.sidebar {
+  .block:first-child {
+    padding-top: $column-gutter;
+  }
+  .block-menu li {
+    line-height: 1.2;
+    margin: ($column-gutter / 5) auto;
+  }
+}

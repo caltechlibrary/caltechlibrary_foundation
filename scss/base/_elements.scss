@@ -1,0 +1,70 @@
+// Elements
+//
+// Things to review before you write code here:
+// - Be sure to load after "foundation" import.
+// - Also, before adding styles be sure to modify variables in the
+//   "base/_common.scss" file. You may not need to write any code.
+
+// Use the same settings as IMSS for Caltech sites.
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings
+//------------------------------------------
+// h1, h2, h3,
+// h4, h5, h6 {}
+
+blockquote, blockquote p {
+  color: $gray;
+}
+
+// Anchors
+//-----------------------------------------------------------------------------
+// a {}
+
+a:focus {
+  outline: 1px dotted;
+}
+
+// a.active,
+// a:active,
+// a:hover {}
+
+// Form Input
+//-----------------------------------------------------------------------------
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+// }
+
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+
+// }
+
+// select {}

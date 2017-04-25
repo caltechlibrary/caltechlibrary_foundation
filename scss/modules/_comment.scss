@@ -1,0 +1,24 @@
+.comment {
+  // hide comment titles
+  h3 {
+    display: none;
+  }
+  .submitted {
+    color: $gray;
+    // enable flexbox
+    display: inline-flex;
+    font-size: rem-calc(14);
+    font-style: italic;
+    .permalink {
+      // move permalink after creation data with flexbox order
+      order: 1;
+      padding-left: ($column-gutter / 2);
+    }
+  }
+  .content .field-name-comment-body {
+    white-space: pre-line;
+  }
+  .comment-reply {
+    font-size: rem-calc(14);
+  }
+}

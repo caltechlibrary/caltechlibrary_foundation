@@ -1,0 +1,13 @@
+#header-top {
+  background-color: $gray;
+  color: $white;
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+  a {
+    color: $white;
+  }
+  ul {
+    font-size: smaller;
+  }
+}

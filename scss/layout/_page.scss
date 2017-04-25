@@ -1,0 +1,7 @@
+.section-about .body,
+.section-final .body,
+.front .body {
+  p, ul {
+    padding-left: ($column-gutter / 2);
+  }
+}
