@@ -1,7 +1,10 @@
 #header-top {
   background-color: $gray;
   color: $white;
+  font-size: rem-calc(11);
   font-weight: bold;
+  height: rem-calc(30);
+  line-height: rem-calc(30);
   text-align: right;
   text-transform: uppercase;
   a {

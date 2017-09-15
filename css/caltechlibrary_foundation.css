@@ -6139,7 +6139,10 @@ figure > figcaption {
 #header-top {
   background-color: #696B73;
   color: #FFFFFF;
+  font-size: 0.6875rem;
   font-weight: bold;
+  height: 1.875rem;
+  line-height: 1.875rem;
   text-align: right;
   text-transform: uppercase; }
   #header-top a {
