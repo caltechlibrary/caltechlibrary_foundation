@@ -10,7 +10,15 @@
   a {
     color: $white;
   }
-  ul {
-    font-size: smaller;
+  .block {
+    float: right;
+    margin-left: rem-calc(22);
+  }
+  .menu {
+    @include inline-list;
+    font-size: rem-calc(11);
+    height: rem-calc(30);
+    line-height: rem-calc(30);
+    margin: 0;
   }
 }
