@@ -453,7 +453,7 @@ html, body {
   font-size: 100%; }
 
 body {
-  background: #fff;
+  background: #FFFFFF;
   color: #222;
   padding: 0;
   margin: 0;
@@ -1654,14 +1654,14 @@ select {
 
 .breadcrumbs {
   display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
+  padding: 0.5625rem 0 0.5625rem;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #FFFFFF;
+  border-color: #e6e6e6;
   border-radius: 3px; }
   .breadcrumbs > * {
     margin: 0;
@@ -1691,7 +1691,7 @@ select {
         color: #999999;
         cursor: default; }
     .breadcrumbs > *:before {
-      content: "/";
+      content: ">";
       color: #AAAAAA;
       margin: 0 0.75rem;
       position: relative;

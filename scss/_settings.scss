@@ -131,7 +131,7 @@ $primary-color: $orange;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-// $body-bg: $white;
+$body-bg: $white;
 // $body-font-color: $jet;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
@@ -399,16 +399,16 @@ $h4-font-reduction: 0 !default;
 // $include-html-nav-classes: $include-html-classes;
 
 // We use this to set the background color for the breadcrumb container.
-// $crumb-bg: scale-color($secondary-color, $lightness: 55%);
+$crumb-bg: $body-bg;
 
 // We use these to set the padding around the breadcrumbs.
-// $crumb-padding: rem-calc(9 14 9);
+$crumb-padding: rem-calc(9 0 9);
 // $crumb-side-padding: rem-calc(12);
 
 // We use these to control border styles.
 // $crumb-function-factor: -10%;
 // $crumb-border-size: 1px;
-// $crumb-border-style: solid;
+$crumb-border-style: none;
 // $crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor);
 // $crumb-radius: $global-radius;
 
@@ -422,7 +422,7 @@ $h4-font-reduction: 0 !default;
 
 // We use these to control the slash between breadcrumbs
 // $crumb-slash-color: $base;
-// $crumb-slash: "/";
+$crumb-slash: ">";
 
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
