@@ -11,8 +11,10 @@
     color: $white;
   }
   .block {
-    float: right;
-    margin-left: rem-calc(22);
+    :not(li) > a {
+      float: right;
+      margin-left: rem-calc(22);
+    }
   }
   .menu {
     @include inline-list;
