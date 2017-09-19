@@ -24,3 +24,15 @@ function caltechlibrary_foundation_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['preview']['#attributes']['class'] = $classes;
   }
 }
+
+/**
+ * Prepares username variable.
+ *
+ * We need to override the truncation of usernames to 15 characters that occurs
+ * in Drupal Core.
+ *
+ * @see https://api.drupal.org/api/drupal/includes!theme.inc/function/template_preprocess_username/7.x
+ */
+function caltechlibrary_foundation_preprocess_username(&$variables) {
+  $variables['name'] = format_username($variables['account']);
+}

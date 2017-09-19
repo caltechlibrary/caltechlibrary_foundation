@@ -15,10 +15,5 @@
       padding-left: ($column-gutter / 2);
     }
   }
-  .content .field-name-comment-body {
-    white-space: pre-line;
-  }
-  .comment-reply {
-    font-size: rem-calc(14);
-  }
+  // additional minor site-specific styling can be done with css_editor module
 }

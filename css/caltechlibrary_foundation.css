@@ -6116,10 +6116,6 @@ button, .button {
   .comment .submitted .permalink {
     order: 1;
     padding-left: 0.9375rem; }
-.comment .content .field-name-comment-body {
-  white-space: pre-line; }
-.comment .comment-reply {
-  font-size: 0.875rem; }
 
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.1em; }
