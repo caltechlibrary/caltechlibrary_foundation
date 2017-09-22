@@ -6170,21 +6170,6 @@ figure > figcaption {
   .l-main a:hover {
     text-decoration: underline; }
 
-.views-table .views-field-field-dxn-holdings {
-  white-space: nowrap; }
-.views-table .views-field-field-dxn-requests, .views-table .views-field-field-dxn-lenders {
-  text-align: center; }
-.views-table .views-field-comment-count {
-  white-space: nowrap; }
-  .views-table .views-field-comment-count .comment-add {
-    white-space: normal; }
-  .views-table .views-field-comment-count .comment-comments {
-    margin-bottom: 0.9375rem; }
-  .views-table .views-field-comment-count .comment-new-comments {
-    display: none; }
-  .views-table .views-field-comment-count ul {
-    font-size: 0.875rem; }
-
 .section-about .body h2, .section-final .body h2, .front .body h2 {
   color: #7a303f; }
 .section-about .body h3, .section-final .body h3, .front .body h3 {
